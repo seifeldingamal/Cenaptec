@@ -3,10 +3,13 @@
         "forceConsistentCasingInFileNames": true,
         "module": "commonjs",
         "esModuleInterop": true,
-        "outDir": "./frontend/build",
+        "outDir": "./build",
         "rootDir": "./backend",
         "target": "es6",
         "skipLibCheck": true,
         "strict": true
-    }
+    },
+    "exclude": [
+        "frontend"
+    ]
 }
